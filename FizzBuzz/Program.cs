@@ -9,16 +9,11 @@ namespace FizzBuzz
             FizzBuzzService fizzBuzzService = new FizzBuzzService();
             foreach (var result in fizzBuzzService.GetFizzBuzz(100))
             {
-                Console.WriteLine(result);               
+                Console.WriteLine(result);
             }
         }
     }
-
-    class FizzBuzzTest
-    {
-        
-    }
-
+    
     class FizzBuzzService
     {
         public string[] GetFizzBuzz(int n)
